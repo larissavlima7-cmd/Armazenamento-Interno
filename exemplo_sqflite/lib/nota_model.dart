@@ -31,4 +31,10 @@ class Nota{
       conteudo: map["conteudo"] as String
     );
   }
+
+  //metodo para imprimir dados
+  @override
+  String toString() {
+    return "Nota{id: $id, título: $titulo, conteúdo: $conteudo}";
+  }
 }
